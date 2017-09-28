@@ -1,0 +1,408 @@
+body,div,header,section.footer,nav,p,ul,ol,li,h1,h2,h3,h4,h5,h6,input{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: absolute;
+    top:0;
+    bottom:0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: .12rem;
+    background: #f5f5f5;
+}
+.top{
+    flex: 1;
+    overflow: auto;
+}
+.header{
+    width: 100%;
+    height: 1.5rem;
+    position: relative;
+}
+#ter img{
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: .45rem;
+    z-index: 9999;
+}
+.nav input{
+    width: 80%;
+    height: .3rem;
+    background: #fff;
+    border:none;
+    outline: none;
+    margin: .05rem .3rem;
+    border-radius: .1rem;
+    padding-left: .1rem;
+    box-sizing: border-box;
+}
+.banner img{
+    height: .75rem;
+    width: 100%;
+}
+nav{
+    height: 1.4rem;
+    width: 100%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav ul li{
+    width: 20%;
+    text-align: center;
+}
+nav ul li img{
+    display: block;
+    margin: .05rem auto;
+    height: .35rem;
+}
+.mint-swipe-indicator.is-active{
+    background: #ccc;
+}
+.mint-swipe-indicator{
+    background: red;
+}
+.tit1{
+    height:45px;
+}
+.tit1 p img{
+    height: .14rem;
+}
+.tit1 p span{
+    float: right;
+    padding-right: .1rem;
+    box-sizing:border-box;
+}
+.tit1 p {
+    width: 95%;
+    height: .3rem;
+    text-indent: .1rem;
+    line-height: .3rem;
+    background: #fff;
+    border-radius: .15rem;
+    margin: .07rem auto;
+}
+.pro-main1{
+    background: #fff;
+}
+.pro-main1-top{
+    display: flex;
+    line-height: .3rem;
+}
+.pro-main1-top img{
+    height: .25rem;
+}
+.pro-main1-top-time{
+    flex: 1;
+    text-indent: .1rem
+}
+.pro-main1-top-link{
+    width: 1.1rem;
+}
+.pro-main1-bottom {
+    width: 100%;
+    overflow: hidden;
+}
+.pro-main1-bottom ul{
+    display: flex;
+}
+.pro-main1-bottom li{
+    width: .6rem;
+    text-align: center;
+    margin-left: .05rem;
+}
+.pro-main1-bottom img{
+    height: .55rem;
+    display: block;
+}
+.pro-main1-bottom b{
+    display: block;
+    color: red;
+}
+.pro-main1-bottom span{
+    color: #ccc;
+}
+.tit2 img{
+    width: 95%;
+    height: .3rem;
+    margin: .03rem auto;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu ul li{
+    width: 50%;
+    margin: 0;
+    padding: 0;       
+}
+.menu ul li img{
+    width: 100%;
+}
+
+.hai img{
+    width: 100%;
+}
+.pro-lei-list {
+    width: 100%;
+    background:#e5161e;
+}
+.pro-lei-list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pro-lei-list ul li{
+    width: 50%;
+    margin: 0;
+    padding: 0;       
+}
+.pro-lei-list ul li img{
+    width: 98%;
+    margin: .05rem auto;
+}
+.like-live>p{
+    background: url("../static/hr/floor_tit.png");
+    background-size:99% 99%;
+    background-repeat:repeat;
+
+}
+.like-live>p img{
+    height: .25rem;
+    margin-left:1.3rem;
+}
+.like-live>ol{
+    display: flex;
+    flex-wrap: wrap;
+}
+.like-live>ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.like-live>ol li{
+    width: 25%;
+}
+.like-live>ul li{
+    width: 50%;
+}
+.like-live>ol img,.like-live>ul img{
+    width: 100%;
+}
+.xuan{
+    height: .8rem;
+}
+.xuan img{
+    height: .8rem;
+    width: 95%;
+    border-radius: .1rem;
+    margin: 0 .1rem;;
+}
+
+
+.goodshop ul{
+    display: flex;
+}
+
+.goodshop li{
+    flex: 1;
+}
+.pro{
+    display: flex;
+}
+.left img{
+    width: .95rem;
+    height: .95rem;
+}
+.right img{
+    height: 100%;
+}
+.goodshop li>p{
+    text-indent: .12rem;
+    font-size: .16rem;
+}
+.goodshop li>span{
+    padding-left: .12rem;
+    color:red;
+}
+.shop{
+    font-size: .12rem;
+}
+.prouct-main ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prouct-main ul li{
+    width: 50%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.prouct-main ul li img{
+    width: 100%;
+}
+.prouct-main ul li span{
+    margin: .1rem 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    height: .55rem;
+    border-top:1px solid #ccc;
+}
+.footer ul{
+    background: #fff;
+    display: flex;
+}
+.footer ul li{
+    flex: 1;
+    text-align: center;
+}
+.footer ul li img{
+    display: block;
+    margin: 0 auto;
+    height: .35rem;
+} 
